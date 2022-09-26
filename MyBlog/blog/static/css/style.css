@@ -1,0 +1,24 @@
+
+.bg-primary{
+background: #002244!important;
+}
+
+.mt20{
+margin-top:30px;
+}
+
+.responsive{
+width:100%;
+height:250px;
+margin:3px;
+object-fit: cover;
+}
+
+.container-custom{
+width:90%!important;
+margin:auto;
+}
+
+
+
+

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %} Post {% endblock %}
+
+{% block content %}
+
+<div class="container-custom">
+
+
+    <div class="row">
+
+    <div class="class col s12 12 l12" >
+
+    <h1>{{post.title}}</h1>
+        <h4>({{post.cat.title}})</h4>
+        
+        <img src="/media/{{post.image}}" class="responsive" style="width: 100%; height: 500px; margin: auto">
+
+        <br>
+
+        <p style="text-align:justify; text-justify:inter-word;"> {{post.content | safe}} </p>
+
+    </div>
+
+</div>
+
+</div>
+
+{% endblock %}
