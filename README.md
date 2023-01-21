@@ -1,5 +1,5 @@
 # Blog-it
-A blogging web application with complete CRUD functionality to the admin built using Django framework.
+A blogging web application with complete CRUD functionality to the admin, built using Python Django framework.
 
 Each page contains navigation pane with all the categories listed from which the user can reach the desired category and view the blogs associated with the category type.
 
